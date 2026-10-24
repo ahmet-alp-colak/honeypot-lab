@@ -1,0 +1,14 @@
+{
+  "fake_endpoints": [
+    {
+      "path": "/admin",
+      "template": "admin.html",
+      "event": "admin_access"
+    },
+    {
+      "path": "/search",
+      "template": "vulnerable.html",
+      "event": "search_query"
+    }
+  ]
+}
